@@ -1,0 +1,318 @@
+/*--------------Config Inicial--------------------*/
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  /*height: 100vh !important;*/
+}
+.fondoManchas {
+  background: url(https://i.imgur.com/u6cmQ5D.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  background-color: #3a3a3a;
+}
+
+.fondoIconos {
+  background-color: #3a3a3a;
+}
+.contenedorBotones {
+  padding-bottom: 4.5%;
+  text-align: center;
+}
+
+.contenedorBotonesImaginaudio {
+  padding-bottom: 2.8%;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titularH1 {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.botoncitos {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.botoncitos:hover {
+  background-color: #5da0e8;
+  border-color: none;
+  color: #5da0e8;
+}
+
+.active {
+  background-color: #ff8785;
+  color: #ff8785;
+}
+
+.btn {
+  /*font-size: 2em;*/
+}
+.red {
+  color: #c5413e !important;
+}
+.gray {
+  color: white !important;
+}
+
+.sinPadding {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+.sinMargin {
+  margin-left: 0px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*--------------Videos--------------------*/
+
+.trabajos {
+  /*margin-top: 2%;*/
+}
+
+.noSeVe {
+  display: none;
+}
+
+.seVe {
+  display: initial;
+}
+/*--------------Contenedores Iconos--------------------*/
+
+.contenedor-iconos {
+  /*  width: 80%;*/
+  text-align: center;
+  margin-bottom: 20%;
+  margin-left: 10%;
+}
+
+.contenedor-iconos img {
+  width: 100%;
+}
+.contenedor-iconos a,
+p {
+  color: black;
+  text-decoration: none;
+}
+
+.contenedor-iconos:hover {
+  text-align: center;
+  transform: scale(1.1);
+}
+
+.contenedor-iconos:hover p {
+  color: white;
+}
+
+.contenedor-iconos a:visited {
+  background-color: aliceblue;
+  color: black;
+}
+
+.btn-primary,
+.btn-secondary {
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: #759be1;
+  border-color: #3f7ddb;
+}
+
+.btn-primary a:hover {
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #3f7ddb;
+}
+
+.btn-secondary a:hover {
+  color: gray;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: transparent;
+}
+.btn-secondary a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.5em;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+/*--------------Trabajos--------------------*/
+.contenedorTrabajos {
+  text-align: center;
+}
+.bgOndaSonora {
+  width: 80%;
+  background: url(https://i.imgur.com/wX9rurs.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ondaSonora {
+  width: 80%;
+}
+/*--------------------------------------------------------------------------------------------------IMAGINAUDIO------------------------------------------------*/
+/*--------------Iconos Juego--------------------*/
+.contenedorTrabajosJuego {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.iconoJuego {
+  width: 50% !important;
+}
+
+/*--Contenedores Imaginaudio */
+#contenedortotal {
+}
+
+#droppable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#droppable3 {
+}
+
+#droppable2 {
+}
+
+/*--------------Contenedores de Volumen--------------------*/
+#vol10 {
+  padding: 10%;
+  margin: 0px auto;
+}
+#vol25 {
+  padding: 12%;
+  margin: 0px auto;
+}
+
+#vol50 {
+  padding: 14%;
+  margin: 0px auto;
+}
+
+#vol75 {
+  padding: 16%;
+  margin: 0px auto;
+}
+
+#vol100 {
+  padding: 20%;
+  margin: 0px auto;
+}
+
+.btn-imaginaudio {
+}
+
+/*--------------Contador--------------------*/
+.textoContador {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0px;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.textoContadorFalso {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0px;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+/*--------------Modal--------------------*/
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.modal-header {
+  border-bottom: 0px !important;
+}
+.modal-content {
+  background: url(https://i.imgur.com/jUJG9GM.jpg) no-repeat;
+  background-size: contain;
+  border: 0px !important;
+  height: 380px;
+}
+.modal-footer {
+  align-items: center !important;
+  justify-content: center !important;
+  border-top: 0px !important;
+}
+.tituloPopup {
+  color: #3b3a3a;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 9%;
+}
+.parrafoPopup {
+  color: #3b3a3a;
+  font-size: 1.2em;
+}
+.espaciadoOk {
+  margin-top: 30px;
+}
+.center {
+  text-align: center;
+}
